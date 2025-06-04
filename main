@@ -4,7 +4,10 @@ import Image from "next/image";
 
 export default function CBCMintPage() {
   return (
-    <div className="min-h-screen bg-gradient-to-r from-zinc-900 to-zinc-800 text-white font-sans">
+    <main className="min-h-screen bg-gradient-to-r from-zinc-900 to-zinc-800 text-white font-sans">
+      <title>Crypto Bros Collective | Mint NFTs</title>
+      <meta name="description" content="Mint your Gen X or Zoomer Bros NFT from the CBC collection." />
+
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 p-6 md:p-12">
 
         {/* Gen X Bros Section */}
@@ -40,6 +43,5 @@ export default function CBCMintPage() {
       <footer className="text-center text-sm text-zinc-500 p-4">
         Built with ❤️ by Vladimir – CBC 2025
       </footer>
-    </div>
+    </main>
   );
-}
